@@ -1,0 +1,235 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 40, 40);
+    display: flex;
+    justify-content: center;    /* align horizontally */
+    align-items: center;    /* align vertically*/
+    height: 100vh;
+    letter-spacing: 1px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    /* border: 2px solid purple; */
+    /* display: inline; */
+}
+h2{
+    padding: 0 0 5px 0;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+h4{
+    padding: 5px 0;
+    margin: 0;
+}
+p{
+    font-size: 16px;
+}
+p, li{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+img{
+    border-radius: 5px;
+}
+.profile-pic{
+    border-radius: 30%;
+    width: 150px;
+}
+div img{
+    width: 175px;
+    padding-bottom: 5px;
+    /* border: 2px solid green; */
+}
+.project-img-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+}
+main{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(18, 50, 80);
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 0 10px 0; */
+    /* border: 2px solid orange; */
+}
+.short-bio{
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+.name-bio-section{
+    display: inline;
+    margin: 0 0 0 20px;
+    /* border: 2px solid gray; */
+    width: 43%;
+}
+.main-body{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+    margin: 0;
+    /* border: 2px solid saddlebrown; */
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+ul li{
+    padding: 3px;
+}
+.contact-elements{
+    padding: 3px;
+}
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+    /* border: 2px solid orange; */
+}
+.skills-section{
+    width: 200px;
+    max-width: 200px;
+    height: auto;
+    /* border: 2px solid skyblue; */
+}
+.learn-more{
+    width: 50%;
+    font-size: 14px;
+    text-align: right;
+    /* border: 2px solid green; */
+}
+.learnmore-container{
+    padding: 0 0 20px 0;
+}
+figcaption{
+    font-size: 16px;
+    padding-left: 10px;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    max-width: 300px;
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+figure:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+figure h4{
+    padding-left: 10px;
+}
+.link-style,.project-style{
+    text-decoration: none;
+}
+.link-style:link, .project-style:link, .link-style:visited, .project-style:visited{
+    text-decoration: underline;
+    color: white;
+}
+.link-style:hover{
+    color: rgb(70, 150, 150);
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    padding: 1px;
+    color: white;
+}
+.cancel-padding:hover{
+    padding: 0px;
+}
+.project-style:hover{
+    color: rgb(70, 150, 150);
+    text-decoration: none;
+}
+hr{
+    width: 50%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+i{
+    font-size: 25px;
+}
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+
+
+.skill-item i, .skill-item svg {
+    font-size: 20px;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    padding: 4px;
+}
+.skill-item {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.skill-item:hover {
+    color: rgb(70, 150, 150);
+    text-decoration: none;
+}
+.cpp-icon svg {
+    fill: #00599C;
+    fill: rgb(255, 255, 255);
+    width: 24px;
+    height: 24px;
+}
+.cpp-icon svg:hover{
+    fill: rgb(0, 89, 156);
+}
+.fa-html5:hover {
+    color: #E44D26; 
+}
+.fa-css3-alt:hover{
+    color: #1572B6;
+}
+.fa-python:hover{
+    color: rgb(30, 48, 80);
+}
+/* *************** */
+.link-style:hover{
+    color: rgb(70, 150, 150);
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+}
+.project-style:hover{
+    color: rgb(70, 150, 150);
+    text-decoration: none;
+}
+
+
+
