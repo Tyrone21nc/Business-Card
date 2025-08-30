@@ -23,7 +23,10 @@ h2{
 }
 h4{
     padding: 5px 0;
-    margin: 0;
+    margin: 0 0 5px 0
+}
+.proj-title{
+    margin: 0 0 5px 0;
 }
 p{
     font-size: 16px;
@@ -69,6 +72,7 @@ header{
     align-items: center;
     /* padding: 0 0 10px 0; */
     /* border: 2px solid orange; */
+    text-underline-offset: 3px; 
 }
 .short-bio{
     width: 100%;
@@ -86,6 +90,7 @@ header{
     padding: 20px 10px;
     margin: 0;
     /* border: 2px solid saddlebrown; */
+    text-underline-offset: 3px;
 }
 ul{
     padding: 0;
@@ -94,6 +99,9 @@ ul{
 }
 ul li{
     padding: 3px;
+}
+a{
+    text-decoration: none;
 }
 .contact-elements{
     padding: 3px;
@@ -143,6 +151,7 @@ figure:hover{
 }
 figure h4{
     padding-left: 10px;
+    display: inline;
 }
 .link-style,.project-style{
     text-decoration: none;
@@ -193,7 +202,7 @@ i{
     padding: 4px;
 }
 .skill-item {
-    text-decoration: none;
+    /* text-decoration: none; */
     display: flex;
     align-items: center;
 }
@@ -219,6 +228,9 @@ i{
 .fa-python:hover{
     color: rgb(30, 48, 80);
 }
+.fa-globe{
+    font-size: 17px;
+}
 /* *************** */
 .link-style:hover{
     color: rgb(70, 150, 150);
@@ -230,6 +242,18 @@ i{
     color: rgb(70, 150, 150);
     text-decoration: none;
 }
-
-
+.skills{
+    text-decoration: none;
+    color: white;
+}
+.skills:hover{
+    color: rgb(70, 150, 150);
+    background-color: black;
+    border-radius: 10px;
+    padding: 1px;
+}
+.skills span:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px; /* this allows me to increase the space between the text character and the underline*/
+}
 
